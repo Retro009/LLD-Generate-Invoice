@@ -1,6 +1,6 @@
-package com.example.generateinvoicestarter.repositories;
+package com.example.generateinvoices.repositories;
 
-import com.example.generateinvoicestarter.models.CustomerSession;
+import com.example.generateinvoices.models.CustomerSession;
 
 import java.util.Optional;
 

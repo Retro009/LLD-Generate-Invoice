@@ -1,6 +1,6 @@
-package com.example.generateinvoicestarter.repositories;
+package com.example.generateinvoices.repositories;
 
-import com.example.generateinvoicestarter.models.Booking;
+import com.example.generateinvoices.models.Booking;
 
 import java.util.List;
 

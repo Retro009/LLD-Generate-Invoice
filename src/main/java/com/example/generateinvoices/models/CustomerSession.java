@@ -1,4 +1,4 @@
-package com.example.generateinvoicestarter.models;
+package com.example.generateinvoices.models;
 
 public class CustomerSession extends BaseModel {
     private User user;

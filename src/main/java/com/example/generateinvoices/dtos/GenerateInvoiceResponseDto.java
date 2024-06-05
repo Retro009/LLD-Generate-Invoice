@@ -1,6 +1,6 @@
-package com.example.generateinvoicestarter.dtos;
+package com.example.generateinvoices.dtos;
 
-import com.example.generateinvoicestarter.models.Invoice;
+import com.example.generateinvoices.models.Invoice;
 
 public class GenerateInvoiceResponseDto {
     private ResponseStatus responseStatus;
