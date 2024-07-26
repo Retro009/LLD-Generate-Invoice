@@ -39,7 +39,7 @@ public class BookingServiceImpl implements BookingService{
         invoice.setBookedRooms(bookedRooms);
         invoice.setGst(gst);
         invoice.setServiceCharge(serviceCharge);
-        invoice.setTotalAmount(totalAmount);
+        invoice.setTotalAmount(totalAmount+gst+serviceCharge);
         invoice.setId(customerSession.getId());
         customerSession.setCustomerSessionStatus(CustomerSessionStatus.ENDED);
         return invoice;
